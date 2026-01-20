@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- tailwind CDN  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font inter  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>TackWave</title>
 </head>
 
-<body class="bg-[#1A0B2E] ">
+<body class="bg-[#1A0B2E] font-Inter">
     <nav class="max-w-[1600px] px-5 md:px-10 lg:px-20 h-[92px] mx-auto text-white flex justify-between items-center">
         <!-- nav logo  -->
         <div class="">
@@ -172,9 +176,9 @@
                     frameborder="0"></iframe>
                 <div class="p-4">
                     <h3 class="text-xl font-bold my-4">Learn HTML – Full Tutorial for Beginners</h3>
-                <p class="my-4">Learn HTML in this complete course for beginners. This is an all-in-one beginner
-                    tutorial to help you learn web development skills. This course teaches HTML5. </p>
-                <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
+                    <p class="my-4">Learn HTML in this complete course for beginners. This is an all-in-one beginner
+                        tutorial to help you learn web development skills. This course teaches HTML5. </p>
+                    <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
                 </div>
             </div>
 
@@ -183,10 +187,11 @@
                     frameborder="0"></iframe>
                 <div class="p-4">
                     <h3 class="text-xl font-bold my-4">CSS Tutorial – Full Course for Beginners</h3>
-                <p class="my-4">In this in-depth course, you will learn about all the key features of CSS. This is the
-                    most comprehensive CSS course we've published to date. So if you want to become an expert in
-                    Cascading Style Sheets, this is the course for you.</p>
-                <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
+                    <p class="my-4">In this in-depth course, you will learn about all the key features of CSS. This is
+                        the
+                        most comprehensive CSS course we've published to date. So if you want to become an expert in
+                        Cascading Style Sheets, this is the course for you.</p>
+                    <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
                 </div>
             </div>
 
@@ -196,10 +201,11 @@
                     frameborder="0"></iframe>
                 <div class="p-4">
                     <h3 class="text-xl font-bold my-4">Python for Beginners – Full Course</h3>
-                <p class="my-4">Learn the Python programming language in this full course for beginners! You will learn
-                    the fundamentals of Python and code two Python programs line-by-line. No previous programming
-                    experience is necessary before watching this course.</p>
-                <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
+                    <p class="my-4">Learn the Python programming language in this full course for beginners! You will
+                        learn
+                        the fundamentals of Python and code two Python programs line-by-line. No previous programming
+                        experience is necessary before watching this course.</p>
+                    <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
                 </div>
             </div>
         </div>
@@ -207,13 +213,15 @@
     </section>
 
     <!-- Meet the Host -->
-    <section class="pt-10">
+    <section class="py-20">
         <h2 class="text-4xl text-white font-bold my-10 text-center">Meet the Host</h2>
-        <div class="max-w-[1200px] bg-[#250D44] mx-auto flex flex-col lg:flex-row items-center justify-center gap-5 p-10 rounded-3xl">
+        <div
+            class="max-w-[1200px] bg-[#250D44] mx-auto flex flex-col lg:flex-row items-center justify-center gap-5 p-10 rounded-3xl">
             <img class="" src="./assets/host.png" alt="">
             <div class="text-white text-center lg:text-left">
                 <h2 class="text-3xl font-semibold mb-4">Alex Kumar</h2>
-                <p class="mb-4">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for
+                <p class="mb-4">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech
+                    industry for
                     over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares
                     insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
                 <!-- icons -->
@@ -242,7 +250,38 @@
             </div>
         </div>
     </section>
-
+    <!-- footer  -->
+    <footer class="lg:h-[412px] py-10 lg:py-0 bg-[url('./assets/footer-bg.png')] bg-no-repeat bg-cover bg-center">
+        <!-- footer-content -->
+        <div class=" h-full flex flex-col items-center justify-center gap-5">
+            <!-- footer logo  -->
+            <div class=" text-white">
+                <h2 class=" text-3xl md:text-4xl lg:text-6xl font-bold ">Tech<span
+                        class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+                </h2>
+            </div>
+            <!-- social -->
+            <div class="text-white flex flex-wrap items-center justify-center gap-10">
+                <div class="flex items-center gap-3">
+                    <img src="./assets/spotify.png" alt="">
+                    <p class="text-[#FAFAFA]">Spotify</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <img src="./assets/apple-podcast.png" alt="">
+                    <p class="text-[#FAFAFA]">Apple Podcasts</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <img src="./assets/youtube-podcast.png" alt="">
+                    <p class="text-[#FAFAFA]">YouTube</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <img src="./assets/twitter.png" alt="">
+                    <p class="text-[#FAFAFA]">Twitter</p>
+                </div>
+            </div>
+            <p class="text-white">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 
