@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="./assets/hero-circle.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/hero-circle.png" type="image/x-icon">
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- tailwind CDN  -->
@@ -161,7 +161,7 @@
     </section>
 
     <!-- Featured Episodes -->
-    <section>
+    <section class="pt-10">
         <h2 class="text-4xl text-white font-bold my-10 text-center">Featured Episodes</h2>
         <div class="text-white grid gap-8 grid-cols-1 md:grid-cols-3 mx-auto max-w-[1200px]">
             <!-- card-1  -->
@@ -170,29 +170,79 @@
                 <iframe class="w-full min-h-[200px] rounded-t-3xl"
                     src="https://www.youtube.com/embed/kUMe1FH4CHE?list=PLWKjhJtqVAbnSe1qUNMG7AbPmjIG54u88"
                     frameborder="0"></iframe>
-                <h3 class="text-xl font-bold my-4">Learn HTML – Full Tutorial for Beginners</h3>
-                <p class="my-4">Learn HTML in this complete course for beginners. This is an all-in-one beginner tutorial to help you learn web development skills. This course teaches HTML5. </p>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold my-4">Learn HTML – Full Tutorial for Beginners</h3>
+                <p class="my-4">Learn HTML in this complete course for beginners. This is an all-in-one beginner
+                    tutorial to help you learn web development skills. This course teaches HTML5. </p>
                 <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
+                </div>
             </div>
 
             <div class="bg-[#250D44] rounded-3xl">
-                <iframe class="w-full min-h-[200px] rounded-t-3xl" src="https://www.youtube.com/embed/OXGznpKZ_sA" frameborder="0"></iframe>
-                <h3 class="text-xl font-bold my-4">CSS Tutorial – Full Course for Beginners</h3>
-                <p class="my-4">In this in-depth course, you will learn about all the key features of CSS. This is the most comprehensive CSS course we've published to date. So if you want to become an expert in Cascading Style Sheets, this is the course for you.</p>
+                <iframe class="w-full min-h-[200px] rounded-t-3xl" src="https://www.youtube.com/embed/OXGznpKZ_sA"
+                    frameborder="0"></iframe>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold my-4">CSS Tutorial – Full Course for Beginners</h3>
+                <p class="my-4">In this in-depth course, you will learn about all the key features of CSS. This is the
+                    most comprehensive CSS course we've published to date. So if you want to become an expert in
+                    Cascading Style Sheets, this is the course for you.</p>
                 <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
+                </div>
             </div>
 
             <div class="bg-[#250D44] rounded-3xl">
                 <iframe class="w-full min-h-[200px] rounded-t-3xl"
                     src="https://www.youtube.com/embed/eWRfhZUzrAc?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB"
                     frameborder="0"></iframe>
-                <h3 class="text-xl font-bold my-4">Python for Beginners – Full Course</h3>
-            <p class="my-4">Learn the Python programming language in this full course for beginners! You will learn the fundamentals of Python and code two Python programs line-by-line. No previous programming experience is necessary before watching this course.</p>
-            <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold my-4">Python for Beginners – Full Course</h3>
+                <p class="my-4">Learn the Python programming language in this full course for beginners! You will learn
+                    the fundamentals of Python and code two Python programs line-by-line. No previous programming
+                    experience is necessary before watching this course.</p>
+                <p class="text-green-400 font-bold my-4 mb-auto"><i class="fa-regular fa-clock"></i> 4:39:59 min</p>
+                </div>
             </div>
         </div>
 
     </section>
+
+    <!-- Meet the Host -->
+    <section class="pt-10">
+        <h2 class="text-4xl text-white font-bold my-10 text-center">Meet the Host</h2>
+        <div class="max-w-[1200px] bg-[#250D44] mx-auto flex flex-col lg:flex-row items-center justify-center gap-5 p-10 rounded-3xl">
+            <img class="" src="./assets/host.png" alt="">
+            <div class="text-white text-center lg:text-left">
+                <h2 class="text-3xl font-semibold mb-4">Alex Kumar</h2>
+                <p class="mb-4">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for
+                    over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares
+                    insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                <!-- icons -->
+                <div class="flex space-x-5 justify-center lg:justify-start">
+                    <div class="border w-10 h-10 flex items-center justify-center rounded-full border-[#533C72]">
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <img class="w-full" src="./assets/linkedin.png" alt="">
+                        </a>
+                    </div>
+                    <div class="border w-10 h-10 flex items-center justify-center rounded-full border-[#533C72]">
+                        <a href="https://www.x-icon.com/" target="_blank">
+                            <img class="w-full" src="./assets/linkedin.png" alt="">
+                        </a>
+                    </div>
+                    <div class="border w-10 h-10 flex items-center justify-center rounded-full border-[#533C72]">
+                        <a href="https://www.x-icon.com/" target="_blank">
+                            <img class="w-full" src="./assets/instagram.png" alt="">
+                        </a>
+                    </div>
+                    <div class="border w-10 h-10 flex items-center justify-center rounded-full border-[#533C72]">
+                        <a href="https://www.x-icon.com/" target="_blank">
+                            <img class="w-full" src="./assets/youtube.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 </body>
 
